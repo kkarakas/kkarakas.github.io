@@ -1,12 +1,12 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Kutay Karakaş
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      I am a Computer Science student in SEAS at Columbia University. I mainly develop projects in Python and Java.
+
+
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : kkarakas/kkarakas.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : kkarakas/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -20,35 +20,35 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-
+  - pages/blog.html
 
 ### Author Info ###
 author:
-  name              : Kutay Karakas
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  name              : Kutay Karakaş
+  image             : ./image.png
+  # behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : kutay@karakas.co
+  # facebook          : your_username
+  github            : kkarakas
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : kutay-karakas-0a0b25195/
+  # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  # twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
 
 
 ### Posts ###
-permalink: /blog/:title
+# permalink: /blog/:title
 
 
 ### Collections ###
@@ -60,15 +60,14 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname: kutaykarakas                     # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
   enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
-
+    tracking_id: G-WFESN81Y58
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
